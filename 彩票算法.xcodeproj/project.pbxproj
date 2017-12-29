@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BC51F61FF61DCD00B2BB88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC51F51FF61DCD00B2BB88 /* AppDelegate.m */; };
+		17BC51F91FF61DCD00B2BB88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC51F81FF61DCD00B2BB88 /* ViewController.m */; };
+		17BC51FC1FF61DCE00B2BB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BC51FA1FF61DCE00B2BB88 /* Main.storyboard */; };
+		17BC51FE1FF61DCE00B2BB88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BC51FD1FF61DCE00B2BB88 /* Assets.xcassets */; };
+		17BC52011FF61DCE00B2BB88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BC51FF1FF61DCE00B2BB88 /* LaunchScreen.storyboard */; };
+		17BC52041FF61DCE00B2BB88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC52031FF61DCE00B2BB88 /* main.m */; };
+		17BC520E1FF61DCE00B2BB88 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC520D1FF61DCE00B2BB88 /* ____Tests.m */; };
+		17BC52191FF61DCE00B2BB88 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC52181FF61DCE00B2BB88 /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17BC520A1FF61DCE00B2BB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BC51E91FF61DCD00B2BB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BC51F01FF61DCD00B2BB88;
+			remoteInfo = "彩票算法";
+		};
+		17BC52151FF61DCE00B2BB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BC51E91FF61DCD00B2BB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BC51F01FF61DCD00B2BB88;
+			remoteInfo = "彩票算法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17BC51F11FF61DCD00B2BB88 /* 彩票算法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票算法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC51F41FF61DCD00B2BB88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17BC51F51FF61DCD00B2BB88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17BC51F71FF61DCD00B2BB88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17BC51F81FF61DCD00B2BB88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17BC51FB1FF61DCE00B2BB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17BC51FD1FF61DCE00B2BB88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17BC52001FF61DCE00B2BB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17BC52021FF61DCE00B2BB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BC52031FF61DCE00B2BB88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17BC52091FF61DCE00B2BB88 /* 彩票算法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票算法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC520D1FF61DCE00B2BB88 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		17BC520F1FF61DCE00B2BB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BC52141FF61DCE00B2BB88 /* 彩票算法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票算法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC52181FF61DCE00B2BB88 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		17BC521A1FF61DCE00B2BB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17BC51EE1FF61DCD00B2BB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC52061FF61DCE00B2BB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC52111FF61DCE00B2BB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BC51E81FF61DCD00B2BB88 = {
+			isa = PBXGroup;
+			children = (
+				17BC51F31FF61DCD00B2BB88 /* 彩票算法 */,
+				17BC520C1FF61DCE00B2BB88 /* 彩票算法Tests */,
+				17BC52171FF61DCE00B2BB88 /* 彩票算法UITests */,
+				17BC51F21FF61DCD00B2BB88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17BC51F21FF61DCD00B2BB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BC51F11FF61DCD00B2BB88 /* 彩票算法.app */,
+				17BC52091FF61DCE00B2BB88 /* 彩票算法Tests.xctest */,
+				17BC52141FF61DCE00B2BB88 /* 彩票算法UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17BC51F31FF61DCD00B2BB88 /* 彩票算法 */ = {
+			isa = PBXGroup;
+			children = (
+				17BC51F41FF61DCD00B2BB88 /* AppDelegate.h */,
+				17BC51F51FF61DCD00B2BB88 /* AppDelegate.m */,
+				17BC51F71FF61DCD00B2BB88 /* ViewController.h */,
+				17BC51F81FF61DCD00B2BB88 /* ViewController.m */,
+				17BC51FA1FF61DCE00B2BB88 /* Main.storyboard */,
+				17BC51FD1FF61DCE00B2BB88 /* Assets.xcassets */,
+				17BC51FF1FF61DCE00B2BB88 /* LaunchScreen.storyboard */,
+				17BC52021FF61DCE00B2BB88 /* Info.plist */,
+				17BC52031FF61DCE00B2BB88 /* main.m */,
+			);
+			path = "彩票算法";
+			sourceTree = "<group>";
+		};
+		17BC520C1FF61DCE00B2BB88 /* 彩票算法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17BC520D1FF61DCE00B2BB88 /* ____Tests.m */,
+				17BC520F1FF61DCE00B2BB88 /* Info.plist */,
+			);
+			path = "彩票算法Tests";
+			sourceTree = "<group>";
+		};
+		17BC52171FF61DCE00B2BB88 /* 彩票算法UITests */ = {
+			isa = PBXGroup;
+			children = (
+				17BC52181FF61DCE00B2BB88 /* ____UITests.m */,
+				17BC521A1FF61DCE00B2BB88 /* Info.plist */,
+			);
+			path = "彩票算法UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17BC51F01FF61DCD00B2BB88 /* 彩票算法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC521D1FF61DCE00B2BB88 /* Build configuration list for PBXNativeTarget "彩票算法" */;
+			buildPhases = (
+				17BC51ED1FF61DCD00B2BB88 /* Sources */,
+				17BC51EE1FF61DCD00B2BB88 /* Frameworks */,
+				17BC51EF1FF61DCD00B2BB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票算法";
+			productName = "彩票算法";
+			productReference = 17BC51F11FF61DCD00B2BB88 /* 彩票算法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17BC52081FF61DCE00B2BB88 /* 彩票算法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC52201FF61DCE00B2BB88 /* Build configuration list for PBXNativeTarget "彩票算法Tests" */;
+			buildPhases = (
+				17BC52051FF61DCE00B2BB88 /* Sources */,
+				17BC52061FF61DCE00B2BB88 /* Frameworks */,
+				17BC52071FF61DCE00B2BB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BC520B1FF61DCE00B2BB88 /* PBXTargetDependency */,
+			);
+			name = "彩票算法Tests";
+			productName = "彩票算法Tests";
+			productReference = 17BC52091FF61DCE00B2BB88 /* 彩票算法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17BC52131FF61DCE00B2BB88 /* 彩票算法UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC52231FF61DCE00B2BB88 /* Build configuration list for PBXNativeTarget "彩票算法UITests" */;
+			buildPhases = (
+				17BC52101FF61DCE00B2BB88 /* Sources */,
+				17BC52111FF61DCE00B2BB88 /* Frameworks */,
+				17BC52121FF61DCE00B2BB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BC52161FF61DCE00B2BB88 /* PBXTargetDependency */,
+			);
+			name = "彩票算法UITests";
+			productName = "彩票算法UITests";
+			productReference = 17BC52141FF61DCE00B2BB88 /* 彩票算法UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17BC51E91FF61DCD00B2BB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "付宝网络";
+				TargetAttributes = {
+					17BC51F01FF61DCD00B2BB88 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					17BC52081FF61DCE00B2BB88 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17BC51F01FF61DCD00B2BB88;
+					};
+					17BC52131FF61DCE00B2BB88 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17BC51F01FF61DCD00B2BB88;
+					};
+				};
+			};
+			buildConfigurationList = 17BC51EC1FF61DCD00B2BB88 /* Build configuration list for PBXProject "彩票算法" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17BC51E81FF61DCD00B2BB88;
+			productRefGroup = 17BC51F21FF61DCD00B2BB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BC51F01FF61DCD00B2BB88 /* 彩票算法 */,
+				17BC52081FF61DCE00B2BB88 /* 彩票算法Tests */,
+				17BC52131FF61DCE00B2BB88 /* 彩票算法UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BC51EF1FF61DCD00B2BB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC52011FF61DCE00B2BB88 /* LaunchScreen.storyboard in Resources */,
+				17BC51FE1FF61DCE00B2BB88 /* Assets.xcassets in Resources */,
+				17BC51FC1FF61DCE00B2BB88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC52071FF61DCE00B2BB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC52121FF61DCE00B2BB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17BC51ED1FF61DCD00B2BB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC51F91FF61DCD00B2BB88 /* ViewController.m in Sources */,
+				17BC52041FF61DCE00B2BB88 /* main.m in Sources */,
+				17BC51F61FF61DCD00B2BB88 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC52051FF61DCE00B2BB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC520E1FF61DCE00B2BB88 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC52101FF61DCE00B2BB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC52191FF61DCE00B2BB88 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17BC520B1FF61DCE00B2BB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BC51F01FF61DCD00B2BB88 /* 彩票算法 */;
+			targetProxy = 17BC520A1FF61DCE00B2BB88 /* PBXContainerItemProxy */;
+		};
+		17BC52161FF61DCE00B2BB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BC51F01FF61DCD00B2BB88 /* 彩票算法 */;
+			targetProxy = 17BC52151FF61DCE00B2BB88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17BC51FA1FF61DCE00B2BB88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BC51FB1FF61DCE00B2BB88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17BC51FF1FF61DCE00B2BB88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BC52001FF61DCE00B2BB88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17BC521B1FF61DCE00B2BB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17BC521C1FF61DCE00B2BB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17BC521E1FF61DCE00B2BB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U63U66XAN7;
+				INFOPLIST_FILE = "彩票算法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miaoZan.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17BC521F1FF61DCE00B2BB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U63U66XAN7;
+				INFOPLIST_FILE = "彩票算法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miaoZan.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17BC52211FF61DCE00B2BB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U63U66XAN7;
+				INFOPLIST_FILE = "彩票算法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miaoZan.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票算法.app/彩票算法";
+			};
+			name = Debug;
+		};
+		17BC52221FF61DCE00B2BB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U63U66XAN7;
+				INFOPLIST_FILE = "彩票算法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miaoZan.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票算法.app/彩票算法";
+			};
+			name = Release;
+		};
+		17BC52241FF61DCE00B2BB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U63U66XAN7;
+				INFOPLIST_FILE = "彩票算法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miaoZan.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "彩票算法";
+			};
+			name = Debug;
+		};
+		17BC52251FF61DCE00B2BB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U63U66XAN7;
+				INFOPLIST_FILE = "彩票算法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miaoZan.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "彩票算法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BC51EC1FF61DCD00B2BB88 /* Build configuration list for PBXProject "彩票算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC521B1FF61DCE00B2BB88 /* Debug */,
+				17BC521C1FF61DCE00B2BB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC521D1FF61DCE00B2BB88 /* Build configuration list for PBXNativeTarget "彩票算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC521E1FF61DCE00B2BB88 /* Debug */,
+				17BC521F1FF61DCE00B2BB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC52201FF61DCE00B2BB88 /* Build configuration list for PBXNativeTarget "彩票算法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC52211FF61DCE00B2BB88 /* Debug */,
+				17BC52221FF61DCE00B2BB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC52231FF61DCE00B2BB88 /* Build configuration list for PBXNativeTarget "彩票算法UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC52241FF61DCE00B2BB88 /* Debug */,
+				17BC52251FF61DCE00B2BB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17BC51E91FF61DCD00B2BB88 /* Project object */;
+}
