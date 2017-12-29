@@ -27,6 +27,16 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)jiSuancLICK:(UIButton *)sender {
+    if (_one.text.length <= 0 || _two.text.length <= 0 || _three.text.length <= 0) {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:@"请输入要计算的号码" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *YesAction = [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:nil];
+        [alert addAction:YesAction];
+        [self presentViewController:alert animated:YES completion:nil];
+        return;
+    }
+    
+    
+    
     [_dataArray removeAllObjects];
     [_resultArray removeAllObjects];
 
